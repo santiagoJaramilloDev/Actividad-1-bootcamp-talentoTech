@@ -1,0 +1,43 @@
+.contenedor-perfil {
+    display: flex;
+    align-items: center;
+    margin: 10px 10px;
+    background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 25px 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.contenedor-imagen {
+    margin-left: 20px;
+}
+
+.contenedor-imagen img {
+    width: 200px;
+    height: auto;
+  }
+
+.constenedor-descripcion {
+    flex: 1;
+}
+
+.contenedor-texto-perfil {
+    text-align: left;
+    font-size: larger;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.cargo-perfil {
+    text-align: left;
+}
+
+.resena-perfil {
+    text-align: left;
+}
+
+.constenedor-descripcion {
+    padding: 0 20px;
+}
+
+
