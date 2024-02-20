@@ -1,56 +1,56 @@
 .contenedor-perfil {
-    display: flex;
-    align-items: center;
-    margin: 10px 10px;
-    background-image: linear-gradient(to right, #ff7e5f, #feb47b);
-    padding: 25px 10px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  margin: 10px 10px;
+  background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+  padding: 25px 10px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .contenedor-imagen {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .contenedor-imagen img {
-    width: 200px;
-    height: auto;
-  }
+    border-radius: 20px;
+  width: 200px;
+  height: auto;
+}
 
 .constenedor-descripcion {
-    flex: 1;
+  flex: 1;
 }
 
 .contenedor-texto-perfil {
-    text-align: left;
-    font-size: larger;
-    font-weight: 600;
-    font-family: sans-serif;
+  text-align: left;
+  font-size: larger;
+  font-weight: 600;
+  font-family: sans-serif;
 }
 
 .cargo-perfil {
-    text-align: left;
+  text-align: left;
 }
 
 .resena-perfil {
-    text-align: left;
+  text-align: left;
 }
 
 .constenedor-descripcion {
-    padding: 0 20px;
+  padding: 0 20px;
 }
 
 button {
-    background-color: #6d72ac; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-
-
+  border: none;
+  color: white;
+  padding: 8px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 18px;
+  background-image: linear-gradient(to right, #4738d0, #6b6e9d);
+}
