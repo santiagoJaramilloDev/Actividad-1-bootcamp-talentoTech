@@ -27,8 +27,8 @@ const users = [
   {
     nombre: "codigofacilito",
     pais: "Mexico",
-    cargo: "CodigoFacilito",
-    empresa: "Sombreros de paja",
+    cargo: "Director",
+    empresa: "Código Facilito",
     imagen: "assets/images/codigofacilito.png",
     resena: "Esta plataforma de origen mexicano facilita cursos gratis de programación a la población de habla hispana, con herramientas, metodologías y mecanismos sumamente efectivos. Esta propuesta educativa se encuentra en línea desde el año 2010, y actualmente cuenta con más de 600 mil estudiantes",
     urlYoutube: "https://www.youtube.com/@codigofacilito",
@@ -43,18 +43,18 @@ function App() {
       <div style={{background: "cadetblue"}}>
         <h1>Canales de desarrollo de software:</h1>
         <div style={{ padding: "20px 20px" }}>
-          {users.map((user) => (
+          {users.map(({nombre, pais, cargo, empresa, resena, imagen, urlYoutube, urlTwitter, urlLinkedin}) => (
             <Perfil
-              key={user.nombre}
-              nombre={user.nombre}
-              pais={user.pais}
-              cargo={user.cargo}
-              empresa={user.empresa}
-              resena={user.resena}
-              imagen={user.imagen}
-              urlYoutube={user.urlYoutube}
-              urlTwitter={user.urlTwitter}
-              urlLinkedin={user.urlLinkedin}
+              key={nombre}
+              nombre={nombre}
+              pais={pais}
+              cargo={cargo}
+              empresa={empresa}
+              resena={resena}
+              imagen={imagen}
+              urlYoutube={urlYoutube}
+              urlTwitter={urlTwitter}
+              urlLinkedin={urlLinkedin}
             />
           ))}
         </div>
